@@ -88,7 +88,6 @@ const HomeTemplate = (): React.ReactElement => {
               borderWidth={1}
               padding={10}
               alignItems="flex-end"
-
             >
               <Bell color={isDarkMode ? colors.white : colors.black} />
             </View>
@@ -117,6 +116,7 @@ const HomeTemplate = (): React.ReactElement => {
         </ScrollView>
       </SafeAreaView>
     </LinearGradientBackground >
+
   )
 }
 
